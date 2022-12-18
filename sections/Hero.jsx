@@ -2,6 +2,7 @@
 import { motion } from "framer-motion";
 import styles from "../styles";
 import { slideIn, staggerContainer, textVariant } from "../utils/motion";
+;
 const Hero = () => (
   <section className={`${styles.yPaddings} sm:pl-16 pl-6`}>
     <motion.div
@@ -14,7 +15,7 @@ const Hero = () => (
     <motion.div
     variants={slideIn('left','tween',0.2,1)}
     >
-    <img src="/astronaut.png" alt="cover" className="w-700 sm:h-[350px]
+    <img src="/astronaut.png"  alt="cover" className="w-700 sm:h-[350px]
           h-[150px] object-contain  z-10   absolute" />
     </motion.div>
   
@@ -56,9 +57,9 @@ items-center flex-col relative z-10"
 
       </motion.div>
     </motion.div>
-    <div className="w-full  ">
-<img src="/ground.png" alt="ground" />
-    </div>
+    {/* <div className="w-full  ">
+<img src="/ground.png"  alt="ground" />
+    </div> */}
   </section>
 );
 
