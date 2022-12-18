@@ -33,7 +33,7 @@ const WhatsNew = () => (
         className={`flex-1 ${styles.flexCenter}`}
       >
         <img
-          src="/get-started.png"
+          src="/get-started.webp"
           alt="get-started"
           className="w-[90%] h-[90%] object-contain"
         />

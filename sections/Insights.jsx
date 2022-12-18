@@ -7,11 +7,11 @@ import { insights } from "../constants";
 const Insights = () => (
   <section className={`${styles.paddings} relative z-10`}>
     <div className="gradient-02 z-0" />
-    <motion.div
-      variants={staggerContainer}
-      initial="hidden"
-      whileInView="show"
-      viewport={{ once: true, amount: 0.25 }}
+    <div
+      // variants={staggerContainer}
+      // initial="hidden"
+      // whileInView="show"
+      // viewport={{ once: true, amount: 0.25 }}
       className={`${styles.innerWidth} mx-auto flex-col`}
     >
       <TypingText title="| Insights " textStyles="text-center" />
@@ -23,7 +23,7 @@ const Insights = () => (
               {...insight} index={index+1}/>
             ))}
       </div>
-    </motion.div>
+    </div>
 </section>
 );
 

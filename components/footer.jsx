@@ -4,7 +4,7 @@ import { socials } from "../constants";
 import styles from "../styles";
 import { footerVariants } from "../utils/motion";
 const Footer = () => (
-  <motion.footer
+  <footer
     variants={footerVariants}
     initial="hidden"
     whileInView="show"
@@ -54,7 +54,7 @@ const Footer = () => (
         </div>
       </div>
     </div>
-  </motion.footer>
+  </footer>
 );
 
 export default Footer;

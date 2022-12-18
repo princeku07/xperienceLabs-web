@@ -1,22 +1,22 @@
 export const exploreWorlds = [
   {
     id: 'world-1',
-    imgUrl: '/planet-01.png',
+    imgUrl: '/planet-01.webp',
     title: 'Marketing',
   },
   {
     id: 'world-2',
-    imgUrl: '/planet-02.png',
+    imgUrl: '/planet-02.webp',
     title: 'Education',
   },
   {
     id: 'world-3',
-    imgUrl: '/planet-03.png',
+    imgUrl: '/planet-03.webp',
     title: 'Health Care',
   },
   {
     id: 'world-4',
-    imgUrl: '/planet-04.png',
+    imgUrl: '/planet-04.webp',
     title: 'Entertainment',
   },
   
@@ -45,19 +45,19 @@ export const newFeatures = [
 
 export const insights = [
   {
-    imgUrl: '/planet-06.png',
+    imgUrl: '/planet-06.webp',
     title: 'Snap Celebrates the Fifth Annual Lens Fest',
     subtitle:
         'Snap Lens Fest took place on December 6 and 7. The annual event is a celebration of the Snap Lens creator community, as well as an opportunity for the company to announce initiatives and software offerings. The event is also home to the Lens Fest Awards.',
   },
   {
-    imgUrl: '/planet-07.png',
+    imgUrl: '/planet-07.webp',
     title: 'Digital Eternity Is Just Around the Corner',
     subtitle:
         'These past few years have been visceral reminders of our mortality. But new technologies can offer a way for us and our loved ones to live on.',
   },
   {
-    imgUrl: '/planet-08.png',
+    imgUrl: '/planet-08.webp',
     title: 'Immersive Gamebox announces full-scale interactive Squid Game',
     subtitle:
         'Immersive Gamebox is announcing a full-scale, interactive format for Netflix’s Squid Game in New York. The multiplayer experience is Immersive Gamebox’s first adults-only experience, for players age 16 and up.',
