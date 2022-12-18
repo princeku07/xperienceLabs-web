@@ -46,39 +46,39 @@ export const newFeatures = [
 export const insights = [
   {
     imgUrl: '/planet-06.png',
-    title: 'The launch of the Metaverse makes Elon musk ketar-ketir',
+    title: 'Snap Celebrates the Fifth Annual Lens Fest',
     subtitle:
-        'Magna etiam tempor orci eu lobortis elementum nibh tellus molestie. Diam maecenas sed enim ut sem viverra alique.',
+        'Snap Lens Fest took place on December 6 and 7. The annual event is a celebration of the Snap Lens creator community, as well as an opportunity for the company to announce initiatives and software offerings. The event is also home to the Lens Fest Awards.',
   },
   {
     imgUrl: '/planet-07.png',
-    title: '7 tips to easily master the madness of the Metaverse',
+    title: 'Digital Eternity Is Just Around the Corner',
     subtitle:
-        'Vitae congue eu consequat ac felis donec. Et magnis dis parturient montes nascetur ridiculus mus. Convallis tellus id interdum',
+        'These past few years have been visceral reminders of our mortality. But new technologies can offer a way for us and our loved ones to live on.',
   },
   {
     imgUrl: '/planet-08.png',
-    title: 'With one platform you can explore the whole world virtually',
+    title: 'Immersive Gamebox announces full-scale interactive Squid Game',
     subtitle:
-        'Quam quisque id diam vel quam elementum. Viverra nam libero justo laoreet sit amet cursus sit. Mauris in aliquam sem',
+        'Immersive Gamebox is announcing a full-scale, interactive format for Netflix’s Squid Game in New York. The multiplayer experience is Immersive Gamebox’s first adults-only experience, for players age 16 and up.',
   },
 ];
 
 export const socials = [
-  {
-    name: 'twitter',
-    url: '/twitter.svg',
-  },
+  
   {
     name: 'linkedin',
-    url: '/linkedin.svg',
+    img: '/linkedin.svg',
+    url:'https://www.linkedin.com/company/83520330/admin/'
   },
   {
     name: 'instagram',
-    url: '/instagram.svg',
+    img: '/instagram.svg',
+    url:'https://www.instagram.com/xperiencelabsofficial/'
   },
   {
-    name: 'facebook',
-    url: '/facebook.svg',
+    name: 'youtube',
+    img: '/youtube.svg',
+    url: 'https://www.youtube.com/channel/UCU7QQ-h_sgIBpul_anmiCCQ'
   },
 ];
