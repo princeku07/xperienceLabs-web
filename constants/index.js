@@ -1,23 +1,23 @@
 export const exploreWorlds = [
   {
     id: 'world-1',
-    imgUrl: '/planet-01.webp',
+    imgUrl: '/mar.webp',
     title: 'Marketing',
   },
   {
     id: 'world-2',
-    imgUrl: '/planet-02.webp',
+    imgUrl: '/education.webp',
     title: 'Education',
   },
   {
     id: 'world-3',
-    imgUrl: '/planet-03.webp',
+    imgUrl: '/healthcare.webp',
     title: 'Health Care',
   },
   {
     id: 'world-4',
-    imgUrl: '/planet-04.webp',
-    title: 'Entertainment',
+    imgUrl: '/entertainment.webp',
+    title: 'Media',
   },
   
 ];
