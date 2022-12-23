@@ -4,7 +4,7 @@ import styles from "../styles";
 import { slideIn, staggerContainer, textVariant } from "../utils/motion";
 ;
 const Hero = () => (
-  <section className={`${styles.yPaddings} sm:pl-16 pl-6 bg-black`}>
+  <section className={`${styles.yPaddings} sm:pl-16 pl-6 bg-blue m-[50px] rounded-[16px] border-[2px]`}>
     <motion.div
       variants={staggerContainer}
       initial="hidden"
@@ -40,10 +40,10 @@ items-center flex-col relative z-10"
       variants={slideIn('right','tween',0.2,1)}
       className = "relative w-full md:-mt-[20px]  -mt-[12px]"
       >
-        <div className="absolute w-full h-[380px] lg:h-[600px]
+        <div className="absolute w-full h-[380px] lg:h-[700px]
          rounded-tl-[140px] z-[0] -top-[30px] "/>
          
-          <img src="/earth.webp" alt="cover" className="w-full sm:h-[600px]
+          <img src="/plantes.webp" alt="cover" className="w-full sm:h-[600px]
           h-[350px] object-contain rounded-tl-[140px] z-10   relative" />   
                   
           <a href="#explore">
